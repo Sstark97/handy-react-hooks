@@ -1,0 +1,28 @@
+{
+  "name": "babel-custom-hooks",
+  "version": "1.0.0",
+  "description": "My personal custom hooks and a compilation of comunity custom hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sstark97/babel-custom-hooks.git"
+  },
+  "keywords": [
+    "javascript",
+    "react",
+    "react-hooks",
+    "custom-hooks"
+  ],
+  "author": "Aitor <aitorscinfo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sstark97/babel-custom-hooks/issues"
+  },
+  "homepage": "https://github.com/Sstark97/babel-custom-hooks#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
