@@ -1,6 +1,6 @@
 {
   "name": "babel-custom-hooks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "My personal custom hooks and a compilation of comunity custom hooks",
   "main": "index.js",
   "scripts": {
