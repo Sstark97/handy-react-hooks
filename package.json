@@ -1,6 +1,6 @@
 {
-  "name": "babel-custom-hooks",
-  "version": "1.0.2",
+  "name": "custom-react-hooks",
+  "version": "1.0.3",
   "description": "My personal custom hooks and a compilation of comunity custom hooks",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Sstark97/babel-custom-hooks.git"
+    "url": "git+ssh://git@github.com/Sstark97/custom-react-hooks.git"
   },
   "keywords": [
     "javascript",
