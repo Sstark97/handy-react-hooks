@@ -19,9 +19,9 @@
   "author": "Aitor <aitorscinfo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sstark97/babel-custom-hooks/issues"
+    "url": "https://github.com/Sstark97/custom-react-hooks/issues"
   },
-  "homepage": "https://github.com/Sstark97/babel-custom-hooks#readme",
+  "homepage": "https://github.com/Sstark97/custom-react-hooks#readme",
   "dependencies": {
     "react": "^17.0.2"
   }
