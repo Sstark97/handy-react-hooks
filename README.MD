@@ -1,6 +1,6 @@
 [![licence: MIT](https://badgen.net/badge/license/MIT/blue)
 
-# Babel Custom Hooks
+# Handy React Hooks
 
 > My personal custom hooks and a compilation of comunity custom hooks
 
@@ -42,7 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
 Start with cloning this repo on your local machine:
 
 ```sh
-$ git clone https://github.com/Sstark97/babel-custom-hooks
+$ git clone https://github.com/Sstark97/handy-react-hooks
 $ cd PROJECT
 ```
 
