@@ -152,6 +152,84 @@ You can use these hook to know if an html element is inside the viewport, and
 the hook returns a in the show variable true if the element is inside the viewport
 and a reference to it.
 
+## useLocalStorage
+
+```js
+useLocalStorage(key: string = '', initialValue: any)
+```
+
+#### Options
+
+`key`
+
+| Type   | Default value |
+| ------ | ------------- |
+| string | ''            |
+
+`initialValue`
+
+| Type | Default value | Description          |
+| ---- | ------------- | -------------------- |
+| any  | null          | initialValue to save |
+
+Example:
+
+```jsx
+const LocalStorageComponent = () => {
+  const { storedValue, error, setLocalStorage } = useLocalStorage("test", "These is a test");
+
+  if (error) {
+    return <p>Error</p>;
+  }
+
+  return (
+    <div className="App">
+      <h2>Chuck Norris Joke of the day</h2>
+      {storedValue}</p>}
+    </div>
+  );
+};
+```
+
+## useSessionStorage
+
+```js
+useSessionStorage(key: string = '', initialValue: any)
+```
+
+#### Options
+
+`key`
+
+| Type   | Default value |
+| ------ | ------------- |
+| string | ''            |
+
+`initialValue`
+
+| Type | Default value | Description          |
+| ---- | ------------- | -------------------- |
+| any  | null          | initialValue to save |
+
+Example:
+
+```jsx
+const SessionStorageComponent = () => {
+  const { storedValue, error, setSessionStorage } = useSessionStorage("test", "These is a test");
+
+  if (error) {
+    return <p>Error</p>;
+  }
+
+  return (
+    <div className="App">
+      <h2>Chuck Norris Joke of the day</h2>
+      {storedValue}</p>}
+    </div>
+  );
+};
+```
+
 ## Contributing
 
 1.  Fork it!
