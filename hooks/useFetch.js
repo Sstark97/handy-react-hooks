@@ -9,9 +9,9 @@
  * @return: loading, the loading state of the request
  * @return: error, true if an error appear
 */
-const { useState, useEffect } = require('react');
+import { useState, useEffect } from 'react';
 
-const useFetch = ( url, config ) => {
+export const useFetch = ( url, config ) => {
     const [response, setResponse] = useState([]);
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(true);
@@ -36,7 +36,6 @@ const useFetch = ( url, config ) => {
 
     return { response, error, loading };
 
-}
+};
 
-module.exports = useFetch;
 

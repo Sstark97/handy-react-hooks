@@ -1,5 +1,5 @@
-const useFetch = require('./hooks/useFetch');
+import { useFetch } from './hooks/useFetch';
 
-module.exports = {
+export {
     useFetch,
 }

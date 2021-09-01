@@ -80,7 +80,7 @@ Example:
 
 ```jsx
 const FetchComponent = () => {
-  const { data, error, loading } = useBasicFetch(
+  const { data, error, loading } = useFetch(
     "https://api.icndb.com/jokes/random"
   );
 
@@ -139,6 +139,18 @@ const FetachComponent = () => {
   );
 };
 ```
+
+## useNearScreen
+
+```js
+useNearScreen();
+```
+
+### Description
+
+You can use these hook to know if an html element is inside the viewport, and
+the hook returns a in the show variable true if the element is inside the viewport
+and a reference to it.
 
 ## Contributing
 
