@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * useFetch is a custom hook that use the fetch API for make request.
+ * useSessionStorage is a custom hook that allow to save data in sessionStorage
  * @param: key an String that representing the sessionStorage Key
  * @param: initialValue, the initial data that you want to save.
  * 

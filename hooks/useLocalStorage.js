@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * useFetch is a custom hook that use the fetch API for make request.
+ * useLocalStorage is a custom hook that allow to save data in localStorage
  * @param: key an String that representing the localStorage Key
  * @param: initialValue, the initial data that you want to save.
  * 
